@@ -81,7 +81,7 @@ export default {
   computed: {
       card_image() {
           if(this.card){
-              return `/images/${this.card.id}${this.xr ? 'xr' : ''}.png`
+              return `/mhaccgdb/images/${this.card.id}${this.xr ? 'xr' : ''}.png`
           }
           return null
       }
