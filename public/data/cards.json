@@ -1988,5 +1988,446 @@
           }
       ],
       "keywords": [""]
+    },
+    {
+      "id": "001074",
+      "collectors_set": "my hero academia",
+      "collectors_number": "074",
+      "rarity": "se",
+      "title": "Blast Rush Turbo",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 0,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 5,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 Momentum: This attack gets +1 damage for each Fury attack in your discard pile."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If you have discarded a card from your card pool this Combat Phase, this attack gets +1 speed and +3 damage."
+          }
+      ],
+      "keywords": ["Fury"]
+    },
+    {
+      "id": "001075",
+      "collectors_set": "my hero academia",
+      "collectors_number": "075",
+      "rarity": "se",
+      "title": "Exploding Pride",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 3,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your rival loses 1 health for each card in their momentum. This effect cannot reduce your rival below 1 health."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is blocked, discard all cards from your rival's momentum."
+          }
+      ],
+      "keywords": ["Fury", "Ranged"]
+    },
+    {
+      "id": "001076",
+      "collectors_set": "my hero academia",
+      "collectors_number": "076",
+      "rarity": "se",
+      "title": "Howitzer Impact",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 6,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 6,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If you have destroyed a foundation this turn, this attack gets -2 difficulty."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: This attack gets +2 speed."
+          }
+      ],
+      "keywords": ["Fury"]
+    },
+    {
+      "id": "001077",
+      "collectors_set": "my hero academia",
+      "collectors_number": "077",
+      "rarity": "se",
+      "title": "Instant Explosive Release",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 3,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add this attack to your momentum after it resolves. Only playable if your first attack this turn dealt damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack deals damage, your next attack gets +2 damage."
+          }
+      ],
+      "keywords": ["Fury"]
+    },
+    {
+      "id": "001078",
+      "collectors_set": "my hero academia",
+      "collectors_number": "078",
+      "rarity": "se",
+      "title": "Long-Lasting Explosion",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 5,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If the next attack you play this turn is a high attack, it gets +3 speed. If the next attack you play this turn is a mid attack, it gets +3 damage."
+          }
+      ],
+      "keywords": ["Charge", "Fury"]
+    },
+    {
+      "id": "001079",
+      "collectors_set": "my hero academia",
+      "collectors_number": "079",
+      "rarity": "se",
+      "title": "Monster Blast",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If the next attack you play this turn is a low attack, destroy 1 rival foundation."
+          }
+      ],
+      "keywords": ["Charge", "Fury", "Ranged"]
+    },
+    {
+      "id": "001080",
+      "collectors_set": "my hero academia",
+      "collectors_number": "080",
+      "rarity": "se",
+      "title": "Point Blank Incineration",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 6,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If the next attack you play this turn is a mid attack, it gets +3 speed."
+          }
+      ],
+      "keywords": ["Fury", "Stun: 1"]
+    },
+    {
+      "id": "001081",
+      "collectors_set": "my hero academia",
+      "collectors_number": "081",
+      "rarity": "se",
+      "title": "Signature Right Swing",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 3,
+      "damage": 4,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 2 cards: Draw 2 cards."
+          }
+      ],
+      "keywords": ["Fury"]
+    },
+    {
+      "id": "001082",
+      "collectors_set": "my hero academia",
+      "collectors_number": "082",
+      "rarity": "se",
+      "title": "Aggressive Temper",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "fire", "death"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After this card enters your discard pile during your attack's Enhance Step, your attack gets +2 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001083",
+      "collectors_set": "my hero academia",
+      "collectors_number": "083",
+      "rarity": "se",
+      "title": "Agitation",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit: After your Fury attack is blocked, draw 1 card."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001084",
+      "collectors_set": "my hero academia",
+      "collectors_number": "084",
+      "rarity": "se",
+      "title": "Arrogant Disposition",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 6,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: This Punch attack gets -3 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001085",
+      "collectors_set": "my hero academia",
+      "collectors_number": "085",
+      "rarity": "se",
+      "title": "Burst Speed",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Bakugo Response",
+              "ability_text": "After this card enters your discard pile during your attack's Enhance Step, your rival loses 2 health. This effect can not reduce your rival below 1 health."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001086",
+      "collectors_set": "my hero academia",
+      "collectors_number": "086",
+      "rarity": "se",
+      "title": "Capabilities",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 3,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 4,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit, discard 1 momentum: Your Fury attack gets +2 speed and +5 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001087",
+      "collectors_set": "my hero academia",
+      "collectors_number": "087",
+      "rarity": "se",
+      "title": "Encouragement",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After your unblocked attack resolves, discard it from the card pool."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001088",
+      "collectors_set": "my hero academia",
+      "collectors_number": "088",
+      "rarity": "se",
+      "title": "In Danger",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: If this attack's damage is equal to or greater than your current health, this attack gets -3 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001089",
+      "collectors_set": "my hero academia",
+      "collectors_number": "089",
+      "rarity": "se",
+      "title": "Latent Skill",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip, discard 2 cards: Draw 2 cards."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001090",
+      "collectors_set": "my hero academia",
+      "collectors_number": "090",
+      "rarity": "se",
+      "title": "Let's Fight Bad Guys!",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Your Fury attack gets +2 speed."
+          },
+      ],
+      "keywords": [""]
     }
 ]
