@@ -38,7 +38,7 @@
                         <td>{{card.difficulty}}</td>
                     </tr>
                     <tr>
-                        <td>check</td>
+                        <td>Check</td>
                         <td>{{card.check}}</td>
                     </tr>
                     <tr>
@@ -56,7 +56,7 @@
                 <span v-for="(keyword, tkey) in card.keywords" :key="tkey">{{keyword.toUpperCase()}} <span v-if="tkey < card.keywords.length -1"> &nbsp;|&nbsp;</span></span>
             </em></p>
             <p v-for="(ability, akey) in card.abilities" :key="akey">
-                <strong>{{ability.ability_type.toUpperCase()}}</strong>: {{ability.ability_text}}
+                <strong v-if="ability.ability_type">{{ability.ability_type.toUpperCase()}}:</strong> {{ability.ability_text}}
             </p>
         </div>
     </div>
