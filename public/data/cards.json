@@ -1242,5 +1242,270 @@
           }
       ],
       "keywords": [""]
+    },
+    {
+      "id": "001046",
+      "collectors_set": "my hero academia",
+      "collectors_number": "046",
+      "rarity": "uc",
+      "title": "Hanta Sero",
+      "type": "character",
+      "hand_size": 6,
+      "health": 27,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["order", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After your attack is partially blocked, draw 2 cards."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "[Once per game]: After an attack is completely blocked, your rival reveals their hand. Choose 1 card in their hand and discard it."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Change the zone of your attack."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001047",
+      "collectors_set": "my hero academia",
+      "collectors_number": "047",
+      "rarity": "c",
+      "title": "Grasping Tape Toss",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 2,
+      "damage": 5,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is not blocked, commit 1 rival foundation."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Add 2 rival foundations to the bottom of their deck."
+          }
+      ],
+      "keywords": ["Ranged", "Stun: 1", "Throw"]
+    },
+    {
+      "id": "001048",
+      "collectors_set": "my hero academia",
+      "collectors_number": "048",
+      "rarity": "uc",
+      "title": "Rapid Tape Strike",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Sero Enhance",
+              "ability_text": "Commit 1 foundation: This attack cannot be blocked by mid blocks."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: If this attack is not blocked, your rival discards 1 card."
+          }
+      ],
+      "keywords": ["Ranged", "Stun: 1"]
+    },
+    {
+      "id": "001049",
+      "collectors_set": "my hero academia",
+      "collectors_number": "049",
+      "rarity": "UC",
+      "title": "Sudden Tape Shot",
+      "type": "Attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: Change the zone of this attack."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If the zone of this attack is high, it gets +2 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If the zone of this attack is low, it gets +2 damage."
+          }
+      ],
+      "keywords": ["Ranged", "Stun: 1"]
+    },
+    {
+      "id": "001050",
+      "collectors_set": "my hero academia",
+      "collectors_number": "050",
+      "rarity": "ur",
+      "title": "Tape Swing",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 2,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 6,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "This attack cannot be completely blocked."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "After the zone of this attack is changed, it gets +2 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: Change the zone of this attack. This enhance is playable any number of times this Enhance Step."
+          }
+      ],
+      "keywords": ["Charge", "Ranged"]
+    },
+    {
+      "id": "001051",
+      "collectors_set": "my hero academia",
+      "collectors_number": "051",
+      "rarity": "c",
+      "title": "Gotcha",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After this card is committed during the Enhance Step, this attack gets +1 or -1 speed. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001052",
+      "collectors_set": "my hero academia",
+      "collectors_number": "052",
+      "rarity": "c",
+      "title": "Tape",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Change this attack's zone to mid."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: This mid attack gets -2 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001053",
+      "collectors_set": "my hero academia",
+      "collectors_number": "053",
+      "rarity": "r",
+      "title": "Think Fast!",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: Change the zone of your attack."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If the zone of your attack has been changed, it gets +1 speed and +1 damage."
+          }
+      ],
+      "keywords": ["Unique"]
+    },
+    {
+      "id": "001054",
+      "collectors_set": "my hero academia",
+      "collectors_number": "054",
+      "rarity": "uc",
+      "title": "What's Their Plan?",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["justice", "void", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: choose 1 of the following effects: <ul><li>Both players discard 1 momentum.</li><li>The next attack this turn loses EX.</li><li>The next attack this turn loses Powerful.</li><li>The next attack this turn loses Stun</li></ul>"
+          }
+      ],
+      "keywords": ["Ally"]
     }
 ]
