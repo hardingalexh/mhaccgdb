@@ -989,5 +989,258 @@
           }
       ],
       "keywords": ["Unique"]
+    },
+    {
+      "id": "001037",
+      "collectors_set": "my hero academia",
+      "collectors_number": "037",
+      "rarity": "uc",
+      "title": "Fumikage Tokoyami",
+      "type": "character",
+      "hand_size": 7,
+      "health": 20,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once per turn] Discard the top 5 cards of your deck: Add 1 copy of \"Summon Dark Shadow\" from your discard pile to your hand."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +1 or -1 damage. Only playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001038",
+      "collectors_set": "my hero academia",
+      "collectors_number": "038",
+      "rarity": "uc",
+      "title": "Summon Dark Shadow",
+      "type": "action",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "While this card is in your card pool, your attacks get +1 speed and +1 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your next check to play a card this turn gets +3. Commit your character."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001039",
+      "collectors_set": "my hero academia",
+      "collectors_number": "039",
+      "rarity": "ur",
+      "title": "Dark Shadow Ruin",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 5,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Actions in your card pool do not count towards progressive difficulty for the rest of this turn."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack has received a speed and damage bonus, it gets +3 damage and gains Stun: 1."
+          }
+      ],
+      "keywords": ["Ally", "Breaker: 1", "Ranged"]
+    },
+    {
+      "id": "001040",
+      "collectors_set": "my hero academia",
+      "collectors_number": "040",
+      "rarity": "c",
+      "title": "Dark Shadow Slash",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 1,
+      "damage": 4,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If your character is committed, this attack gets +2 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +1 speed for each Ally card in your card pool."
+          }
+      ],
+      "keywords": ["Ally", "Charge", "Punch"]
+    },
+    {
+      "id": "001041",
+      "collectors_set": "my hero academia",
+      "collectors_number": "041",
+      "rarity": "C",
+      "title": "Dark Shadow Talon",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add 1 action from your discard pile to your card pool."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Your rival loses 1 health for each Ally card in your card pool."
+          }
+      ],
+      "keywords": ["Ally", "Ranged"]
+    },
+    {
+      "id": "001042",
+      "collectors_set": "my hero academia",
+      "collectors_number": "042",
+      "rarity": "uc",
+      "title": "Back To Back",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: This attack gets -3 damage. Only playable if you have an Ally card in your card pool."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Your Ally or Ranged attack gets +1 speed and +1 damage."
+          }
+      ],
+      "keywords": ["Ally"]
+    },
+    {
+      "id": "001043",
+      "collectors_set": "my hero academia",
+      "collectors_number": "043",
+      "rarity": "c",
+      "title": "Clever Distraction",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: This high or low attack gets -2 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001044",
+      "collectors_set": "my hero academia",
+      "collectors_number": "044",
+      "rarity": "r",
+      "title": "Cool Student",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: Your next check to play a card gets +2."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add this card to the top of your deck."
+          }
+      ],
+      "keywords": ["Ally"]
+    },
+    {
+      "id": "001045",
+      "collectors_set": "my hero academia",
+      "collectors_number": "045",
+      "rarity": "C",
+      "title": "Stronger In Darkness",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "if your character is committed, this attack gets +1 damage."
+          }
+      ],
+      "keywords": [""]
     }
 ]
