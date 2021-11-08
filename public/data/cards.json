@@ -1735,5 +1735,258 @@
           }
       ],
       "keywords": ["Punch"]
+    },{
+      "id": "001064",
+      "collectors_set": "my hero academia",
+      "collectors_number": "064",
+      "rarity": "se",
+      "title": "Bonds of Friendship",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 6,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: This Fury attack gets -3 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001065",
+      "collectors_set": "my hero academia",
+      "collectors_number": "065",
+      "rarity": "se",
+      "title": "Gift From Mom",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum. Your Punch attack gets +3 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001066",
+      "collectors_set": "my hero academia",
+      "collectors_number": "066",
+      "rarity": "se",
+      "title": "Good Impression",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Your next Punch attack gets -1 difficulty."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001067",
+      "collectors_set": "my hero academia",
+      "collectors_number": "067",
+      "rarity": "se",
+      "title": "Note Taking",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 0,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Your Punch attack gets +2 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001068",
+      "collectors_set": "my hero academia",
+      "collectors_number": "068",
+      "rarity": "se",
+      "title": "Passing the Torch",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Either draw 1 card or if you have no cards in your hand, draw 2 cards."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001069",
+      "collectors_set": "my hero academia",
+      "collectors_number": "069",
+      "rarity": "se",
+      "title": "Planning Ahead",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Name an attack zone. If your rival's next attack this turn matches the named zone, it gets -5 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001070",
+      "collectors_set": "my hero academia",
+      "collectors_number": "070",
+      "rarity": "se",
+      "title": "Recovery Girl's Kiss",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Gain 1 health."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001071",
+      "collectors_set": "my hero academia",
+      "collectors_number": "071",
+      "rarity": "se",
+      "title": "Rigorous Training",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you build this card, gain 2 health."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001072",
+      "collectors_set": "my hero academia",
+      "collectors_number": "072",
+      "rarity": "se",
+      "title": "Self Sacrifice",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: This attack gets +1 or -1 daamge."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001073",
+      "collectors_set": "my hero academia",
+      "collectors_number": "073",
+      "rarity": "se",
+      "title": "Katsuki Bakugo",
+      "type": "character",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "death", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After your blocked Fury attack resolves, discard it from your card pool."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: Your attack gets +2 damage."
+          }
+      ],
+      "keywords": [""]
     }
 ]
