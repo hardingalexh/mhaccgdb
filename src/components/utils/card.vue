@@ -35,19 +35,23 @@
                     </tr>
                     <tr>
                         <td>Difficulty</td>
-                        <td>{{card.difficulty}}</td>
+                        <td class="big-text">{{card.difficulty}}</td>
                     </tr>
                     <tr>
                         <td>Check</td>
-                        <td>{{card.check}}</td>
+                        <td class="big-text">{{card.check}}</td>
                     </tr>
                     <tr>
                         <td v-if="card.block_zone">Block</td>
-                        <td v-if="card.block_zone">{{card.block_modifier}} {{card.block_zone | capitalize}}</td>
+                        <td v-if="card.block_zone"><block :zone="card.block_zone" :modifier="card.block_modifier" /></td>
                     </tr>
-                    <tr>
-                        <td v-if="card.type === 'attack'">Attack</td>
-                        <td v-if="card.type === 'attack'">{{card.speed}} Speed {{card.damage}} Damage {{card.attack_zone | capitalize}}</td>
+                    <tr v-if="card.type === 'attack'">
+                        <td>Attack</td>
+                        <td><attack :zone="card.attack_zone" :speed="card.speed" /></td>
+                    </tr>
+                    <tr v-if="card.type === 'attack'">
+                        <td>Damage</td>
+                        <td><damage :damage="card.damage" /></td>
                     </tr>
 
                 </tbody>
@@ -64,9 +68,12 @@
 
 <script>
 import resource from './resource'
+import block from './block'
+import attack from './attack'
+import damage from './damage'
 export default {
   name: 'card',
-  components: {resource},
+  components: {resource, block, attack, damage},
   props: {
       card: {
           type: Object,
