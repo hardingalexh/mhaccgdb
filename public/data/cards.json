@@ -1,0 +1,728 @@
+[
+    {
+        "id": "001001",
+        "collectors_set": "my hero academia",
+        "collectors_number": "001",
+        "type": "character",
+        "difficulty": 6,
+        "check": 6,
+        "title": "All Might",
+        "block_zone": "mid",
+        "block_modifier": 0,
+        "attack_zone": null,
+        "speed": null,
+        "damage": null,
+        "resources": ["all", "earth", "good"],
+        "hand_size": 5,
+        "health": 30,
+        "abilities": [
+            {
+                "ability_type": "form",
+                "ability_text": "[Once per turn] Permanently reduce your character's hand size by 1: Draw 3 cards."
+            },
+            {
+                "ability_type": "enhance",
+                "ability_text": "Commit: Your Fury or Punch attack gains Powerful: X. X equals the number of cards in your hand."
+            }
+        ],
+        "rarity": "uc",
+        "keywords": []
+    },
+    {
+        "id": "001002",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "002",
+        "type": "attack",
+        "difficulty": 6,
+        "check": 2,
+        "title": "Detroit Smash",
+        "block_zone": "high",
+        "block_modifier": 0,
+        "attack_zone": "mid",
+        "speed": 6,
+        "damage": 6,
+        "resources": ["all", "earth", "good"],
+        "abilities": [
+            {
+                "ability_type": "Enhance",
+                "ability_text": "Discard 1 momentum: Add up to 3 cards from your hand to your momentum."
+            },
+            {
+                "ability_type": "All Might Enhance",
+                "ability_text": "Permanenty reduce your character's hand size by 1: Draw 3 cards."
+            }
+        ],
+        "rarity": "ur",
+        "keywords": ["ex: 2", "fury", "powerful: 2", "punch"]
+    },
+    {
+        "id": "001003",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "001",
+        "type": "attack",
+        "difficulty": 4,
+        "check": 3,
+        "title": "Missouri Smash",
+        "block_zone": "high",
+        "block_modifier": 2,
+        "attack_zone": "high",
+        "speed": 3,
+        "damage": 5,
+        "resources": ["all", "earth", "good"],
+        "hand_size": null,
+        "health": null,
+        "abilities": [
+            {
+                "ability_type": "Enhance",
+                "ability_text": "If this attack deals damage, build the next foundation you play face up."
+            },
+            {
+                "ability_type": "Enhance",
+                "ability_text": "If a punch attack has dealt damage this turn, draw 1 card."
+            }
+        ],
+        "rarity": "uc",
+        "keywords": ["punch"]
+    },
+    {
+        "id": "001004",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "004",
+        "type": "attack",
+        "difficulty": 5,
+        "check": 3,
+        "title": "Smash",
+        "block_zone": "mid",
+        "block_modifier": 1,
+        "attack_zone": "mid",
+        "speed": 4,
+        "damage": 6,
+        "resources": ["all", "earth", "good"],
+        "hand_size": null,
+        "health": null,
+        "abilities": [
+            {
+                "ability_type": "Enhance",
+                "ability_text": "If this attack is blocked, your rival flips 1 foundation."
+            }
+        ],
+        "rarity": "c",
+        "keywords": ["fury", "punch"]
+    },
+    {
+        "id": "001005",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "005",
+        "type": "attack",
+        "difficulty": 4,
+        "check": 3,
+        "title": "Texas Smash",
+        "block_zone": "mid",
+        "block_modifier": 1,
+        "attack_zone": "high",
+        "speed": 4,
+        "damage": 3,
+        "resources": ["all", "earth", "good"],
+        "hand_size": null,
+        "health": null,
+        "abilities": [
+            {
+                "ability_type": "Combo Enhance",
+                "ability_text": "This attack gets +4 damage."
+            },
+            {
+                "ability_type": "Enhance",
+                "ability_text": "Discard 1 card: your next attack this turn gets +4 damage."
+            }
+        ],
+        "rarity": "c",
+        "keywords": ["fury", "punch"]
+    },
+    {
+        "id": "001006",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "006",
+        "type": "foundation",
+        "difficulty": 1,
+        "check": 5,
+        "title": "Celebrity Status",
+        "block_zone": "mid",
+        "block_modifier": 2,
+        "resources": ["all", "earth", "good"],
+        "abilities": [
+            {
+                "ability_type": "Enhance",
+                "ability_text": "Flip: Add 1 of your momentum to the top of your deck."
+            }
+        ],
+        "rarity": "c",
+        "keywords": []
+    },
+    {
+        "id": "001007",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "007",
+        "type": "foundation",
+        "difficulty": 0,
+        "check": 5,
+        "title": "It Can't Be Fixed",
+        "block_zone": "high",
+        "block_modifier": 1,
+        "resources": ["all", "earth", "good"],
+        "abilities": [
+            {
+                "ability_type": "Response",
+                "ability_text": "Flip: After you commit any number of cards due to your rival's effect, build the top card of your deck face down. Playable while committed."
+            }
+        ],
+        "rarity": "uc",
+        "keywords": []
+    },
+    {
+        "id": "001008",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "008",
+        "type": "foundation",
+        "difficulty": 3,
+        "check": 5,
+        "title": "Pull No Punches",
+        "block_zone": "high",
+        "block_modifier": 2,
+        "resources": ["all", "earth", "good"],
+        "abilities": [
+            {
+                "ability_type": "Enhance",
+                "ability_text": "Destroy: Add 1 Punch attack from your card pool to your momentum."
+            },
+            {
+                "ability_type": "Deadlock Enhance",
+                "ability_text": "Your Punch attack gets +2 speed and gain Stun: 1."
+            }
+        ],
+        "rarity": "r",
+        "keywords": []
+    },
+    {
+        "id": "001009",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "009",
+        "type": "foundation",
+        "difficulty": 2,
+        "check": 4,
+        "title": "You're So Obvious",
+        "block_zone": "low",
+        "block_modifier": 3,
+        "resources": ["all", "earth", "good"],
+        "abilities": [
+            {
+                "ability_type": "Enhance",
+                "ability_text": "Destroy: Return this attack to its printed damage. If it is a Punch attack, it gets +2 speed."
+            }
+        ],
+        "rarity": "r",
+        "keywords": []
+    },
+    {
+        "id": "001010",
+        "collectors_set": "My Hero Academia",
+        "collectors_number": "010",
+        "type": "character",
+        "difficulty": 6,
+        "check": 6,
+        "title": "Denki Kaminari",
+        "hand_size": 7,
+        "health" : 20,
+        "block_zone": "mid",
+        "block_modifier": 0,
+        "resources": ["air", "chaos", "order"],
+        "rarity": "uc",
+        "abilities": [
+            {
+                "ability_type": "Response",
+                "ability_text": "[Once per game]: After your Charge attack deals damage, add all cards from your card pool to your momentum. This ability cannot be canceled."
+            },
+            {
+                "ability_type": "Enhance",
+                "ability_text": "If your Charge or Stun attack is blocked, commit 1 rival foundation"
+            }
+        ]
+    },
+    {
+     "id": "001011",
+     "collectors_set": "My Hero Academia",
+     "collectors_number": "011",
+     "title": "Blitz Rush",
+     "type": "attack",
+     "block_zone": "mid",
+     "block_modifier": 1,
+     "attack_zone": "high",
+     "speed": 4,
+     "damage": 7,
+     "difficulty": 6,
+     "check": 3,
+     "rarity": "ur",
+     "resources": ["air", "chaos", "order"],
+     "abilities": [
+         {
+             "ability_type": "Enhance",
+             "ability_text": "This attack gets +2 damage for each card in your momentum."
+         },
+         {
+             "ability_type": "Deadlock Enhance",
+             "ability_text": "Your rival commits 1 foundation for each card in your momentum."
+         }
+     ],
+     "keywords": ["charge", "stun: 1"]
+    },
+    {
+        "id": "001012",
+        "collectors_set": "my hero academia",
+        "collectors_number": "012",
+        "type": "attack",
+        "difficulty": 4,
+        "check": 3,
+        "title": "Electric Jolt",
+        "block_zone": "high",
+        "block_modifier": 2,
+        "attack_zone": "mid",
+        "speed": 3,
+        "damage": 4,
+        "resources": ["air", "chaos", "order"],
+        "hand_size": null,
+        "health": null,
+        "abilities": [
+            {
+                "ability_type": "",
+                "ability_text": "If this attack is added to your momentum, add it face up."
+            },
+            {
+                "ability_type": "Enhance",
+                "ability_text": "[Momentum]: Flip: Commit 1 rival foundation."
+            },
+            {
+                "ability_type": "Enhance",
+                "ability_text": "If this attack is completed blocked, it still deals damage during the damage step."
+            }
+        ],
+        "rarity": "c",
+        "keywords": ["charge", "ex: 2", "stun: 1"]
+    },
+    {
+      "id": "001013",
+      "collectors_set": "my hero academia",
+      "collectors_number": "013",
+      "rarity": "uc",
+      "title": "Electric Surge",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["air", "chaos", "order"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If this attack is added to your momentum, add it face up."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Momentum] Flip: Add the top card of your deck to your momentum."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: This attack gets +3 damage."
+          }
+      ],
+      "keywords": ["Charge", "Stun: 1"]
+    },
+    {
+      "id": "001014",
+      "collectors_set": "my hero academia",
+      "collectors_number": "014",
+      "rarity": "r",
+      "title": "Indiscriminate Shock 1,300,000 Volts",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 3,
+      "damage": 5,
+      "resources":["air", "chaos", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +1 damage for each committed rival foundation."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: Your rival commits 1 foundation."
+          }
+      ],
+      "keywords": ["charge", "ranged", "Stun: 1"]
+    },
+    {
+      "id": "001015",
+      "collectors_set": "my hero academia",
+      "collectors_number": "015",
+      "rarity": "uc",
+      "title": "Charged Up",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "order"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Remove: After your Charge or Stun attack deals damage, add 1 card from your discard pile to your momentum."
+          }
+      ],
+      "keywords": []
+    },
+    {
+      "id": "001016",
+      "collectors_set": "my hero academia",
+      "collectors_number": "016",
+      "rarity": "c",
+      "title": "Requesting Assistance",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: If you have 1 or more momentum, ready 1 foundation that has not been readied this combat phase."
+          }
+      ],
+      "keywords": []
+    },
+    {
+      "id": "001017",
+      "collectors_set": "my hero academia",
+      "collectors_number": "017",
+      "rarity": "r",
+      "title": "Shock Treatment",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Your attack] Discard 1 momentum: Commit 1 rival foundation."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: Commit 1 rival foundation."
+          }
+      ],
+      "keywords": ["Unique"]
+    },
+    {
+      "id": "001018",
+      "collectors_set": "my hero academia",
+      "collectors_number": "018",
+      "rarity": "c",
+      "title": "Short Circuit",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: Return this non-charge attack to its printed damage."
+          }
+      ]
+    },
+    {
+      "id": "001019",
+      "collectors_set": "my hero academia",
+      "collectors_number": "019",
+      "rarity": "uc",
+      "title": "Eijiro Kirishima",
+      "type": "character",
+      "hand_size": 5,
+      "health": 29,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["earth", "good", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once per turn]: Build the top card of your deck face down."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Twice per turn] Add 1 foundation from your stage to your hand: This attack gets +2 or -2 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001020",
+      "collectors_set": "my hero academia",
+      "collectors_number": "020",
+      "rarity": "r",
+      "title": "Hardened Chop",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 5,
+      "resources":["earth", "good", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 face down foundation: Build the top card of your deck face down."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is blocked, your rival discards 1 card."
+          }
+      ],
+      "keywords": ["Breaker: 1", "Punch"]
+    },
+    {
+      "id": "001021",
+      "collectors_set": "my hero academia",
+      "collectors_number": "021",
+      "rarity": "c",
+      "title": "Hardened Frenzy",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["earth", "good", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is completely blocked, build it face down after it resolves."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If you have built a card this turn, this attack gets +1 speed and +1 damage."
+          }
+      ],
+      "keywords": ["Fury", "Kick"]
+    },
+    {
+      "id": "001022",
+      "collectors_set": "my hero academia",
+      "collectors_number": "022",
+      "rarity": "c",
+      "title": "Hardened Jab",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 5,
+      "resources":["earth", "good", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add 1 face down foundation from your stage to your hand. Build the top card of your deck face down."
+          }
+      ],
+      "keywords": ["Punch"]
+    },
+    {
+      "id": "001023",
+      "collectors_set": "my hero academia",
+      "collectors_number": "023",
+      "rarity": "ur",
+      "title": "Hardened Pummel",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 5,
+      "damage": 5,
+      "resources":["earth", "good", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: Build 1 card from your hand face down. This attack gets +5 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your rival cannot play action cards during this attack."
+          }
+      ],
+      "keywords": ["Punch"]
+    },
+   {
+    "id": "001024",
+    "collectors_set": "my hero academia",
+    "collectors_number": "024",
+    "rarity": "r",
+    "title": "Coordinated Effort",
+    "type": "foundation",
+    "hand_size": null,
+    "health": null,
+    "difficulty": 3,
+    "check": 6,
+    "block_zone": "mid",
+    "block_modifier": 2,
+    "attack_zone": "",
+    "speed": null,
+    "damage": null,
+    "resources":["earth", "good", "void"],
+    "abilities": [
+        {
+            "ability_type": "Response",
+            "ability_text": "Commit: After your blocked attack resolves, build it face down."
+        },
+        {
+            "ability_type": "Deadlock Enhance",
+            "ability_text": "Unflip 1 foundation."
+        }
+    ],
+    "keywords": ["Unique"]
+    },
+    {
+    "id": "001025",
+    "collectors_set": "my hero academia",
+    "collectors_number": "025",
+    "rarity": "c",
+    "title": "Harden",
+    "type": "foundation",
+    "hand_size": null,
+    "health": null,
+    "difficulty": 2,
+    "check": 5,
+    "block_zone": "high",
+    "block_modifier": 2,
+    "attack_zone": "",
+    "speed": null,
+    "damage": null,
+    "resources":["earth", "good", "void"],
+    "abilities": [
+        {
+            "ability_type": "Response",
+            "ability_text": "After you block with this card, your rival's next attack this turn gets -2 damage."
+        },
+        {
+            "ability_type": "Enhance",
+            "ability_text": "Commit: Your attack gets +2 damage, or if it has \"Hardened\" in its name, it gets +3 damage instead."
+        }
+    ],
+    "keywords": [""]
+    },
+    {
+    "id": "001026",
+    "collectors_set": "my hero academia",
+    "collectors_number": "026",
+    "rarity": "uc",
+    "title": "Manly Passionate Guy",
+    "type": "foundation",
+    "hand_size": null,
+    "health": null,
+    "difficulty": 1,
+    "check": 5,
+    "block_zone": "low",
+    "block_modifier": 3,
+    "attack_zone": "",
+    "speed": null,
+    "damage": null,
+    "resources":["earth", "good", "void"],
+    "abilities": [
+        {
+            "ability_type": "Response",
+            "ability_text": "Flip: After you block with a foundation, build it face up."
+        }
+    ],
+    "keywords": [""]
+    },
+    {
+    "id": "001027",
+    "collectors_set": "my hero academia",
+    "collectors_number": "027",
+    "rarity": "c",
+    "title": "Resistance",
+    "type": "foundation",
+    "hand_size": null,
+    "health": null,
+    "difficulty": 1,
+    "check": 5,
+    "block_zone": "mid",
+    "block_modifier": 3,
+    "attack_zone": "",
+    "speed": null,
+    "damage": null,
+    "resources":["earth", "good", "void"],
+    "abilities": [
+        {
+            "ability_type": "Enhance",
+            "ability_text": "Commit: Your rival's next attack this turn gets -2 damage."
+        },
+        {
+            "ability_type": "Response",
+            "ability_text": "Flip: After your rival plays a Stun ability, cancel it."
+        }
+    ],
+    "keywords": ["Breaker: 1"]
+    }
+]
