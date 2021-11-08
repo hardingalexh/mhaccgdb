@@ -48,14 +48,6 @@ export default {
             ...types.map(t => {return { key: t.toLowerCase(), label: t}})
         ]
     },
-    title: {
-        label: "Title Contains",
-        component: components['HarnessUiInput'],
-        props: {
-            filterType: 'General'
-        }
-    },
-    
     keywords: {
         label: "Keywords",
         component: components['HarnessUiSelect'],
@@ -68,7 +60,30 @@ export default {
             ...keywords.map(t => { return { key: t.toLowerCase(), label: t}})
         ]
     },
-    
+    max_difficulty: {
+        label: "Max Difficulty",
+        component: components['HarnessUiInput'],
+        props: {
+            filterType: "General",
+            type: "number"
+        }
+    },
+    min_check: {
+        label: "Min Check",
+        component: components['HarnessUiInput'],
+        props: {
+            filterType: "General",
+            type: "number"
+        }
+    },
+
+    title: {
+        label: "Title Contains",
+        component: components['HarnessUiInput'],
+        props: {
+            filterType: 'General'
+        }
+    },
     abilities: {
         label:"Ability Text Contains",
         component: components['HarnessUiInput'],
