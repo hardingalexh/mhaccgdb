@@ -16,6 +16,7 @@
         <tr v-for="(result, key) in getChartData(chart.key)" :key="key">
           <td class="align-middle text-center"> 
             <a href="" @click.prevent="$store.dispatch('SET_CARD', result)" data-toggle="modal" data-target="#cardModal">{{result.title}}</a>
+            <br />
             <cardQuantity v-if="deckbuilder" :card="result" />
           </td>
           <td class="align-middle text-center">{{result.type | capitalize}}</td>

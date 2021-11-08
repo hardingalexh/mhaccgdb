@@ -42,6 +42,13 @@ export default async (hs) => {
             return ret
         })
     }
+    if(hs.isFilterDirty('min_check')){
+        cards = cards.filter(card => card.check >= hs.getFilter('min_check'))
+    }
+
+    if(hs.isFilterDirty('max_difficulty')){
+        cards = cards.filter(card => card.difficulty <= hs.getFilter('max_difficulty'))
+    }
 
     // attack
     if(hs.isFilterDirty('attack_zone')){
