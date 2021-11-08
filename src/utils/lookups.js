@@ -3,6 +3,7 @@ export const rarities = {
     "DLC": "Deckloadable Content",
     "P": "Promo",
     "R": "Rare",
+    "SE": "SE",
     "SR": "Secret Rare",
     "UC": "Uncommon",
     "UR": "Ultra Rare"
