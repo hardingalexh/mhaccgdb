@@ -31,7 +31,7 @@
           <td class="align-middle text-center big-text">{{result.check}}</td>
           <td class="align-middle text-center"><attack v-if="result.type === 'attack'" :zone="result.attack_zone" :speed="result.speed"/></td>
           <td class="align-middle text-center"><damage v-if="result.type === 'attack'" :damage="result.damage"/></td>
-          <td class="align-middle text-center"><block v-if="result.block_modifier && result.block_zone" :modifier="result.block_modifier" :zone="result.block_zone" /></td>
+          <td class="align-middle text-center"><block v-if="result.block_zone" :modifier="result.block_modifier" :zone="result.block_zone" /></td>
         </tr>
       </tbody>
     </table>
