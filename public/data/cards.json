@@ -1292,7 +1292,7 @@
       "attack_zone": "mid",
       "speed": 2,
       "damage": 5,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Enhance",
@@ -1321,7 +1321,7 @@
       "attack_zone": "high",
       "speed": 4,
       "damage": 4,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Sero Enhance",
@@ -1350,7 +1350,7 @@
       "attack_zone": "mid",
       "speed": 4,
       "damage": 4,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Enhance",
@@ -1383,7 +1383,7 @@
       "attack_zone": "mid",
       "speed": 4,
       "damage": 6,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "",
@@ -1416,7 +1416,7 @@
       "attack_zone": "",
       "speed": null,
       "damage": null,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Response",
@@ -1441,7 +1441,7 @@
       "attack_zone": "",
       "speed": null,
       "damage": null,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Enhance",
@@ -1470,7 +1470,7 @@
       "attack_zone": "",
       "speed": null,
       "damage": null,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Enhance",
@@ -1499,7 +1499,7 @@
       "attack_zone": "",
       "speed": null,
       "damage": null,
-      "resources":["justice", "void", "water"],
+      "resources":["order", "void", "water"],
       "abilities": [
           {
               "ability_type": "Enhance",
@@ -1507,5 +1507,233 @@
           }
       ],
       "keywords": ["Ally"]
+    },
+    {
+      "id": "001055",
+      "collectors_set": "my hero academia",
+      "collectors_number": "055",
+      "rarity": "se",
+      "title": "Izuku Midoriya",
+      "type": "character",
+      "hand_size": 6,
+      "health": 28,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Name an attack zone [low, mid or high]: If your rival's next attack this turn matches that zone, it gets -3 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once per turn] Discard your hand: Your Punch attack gets +10 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001056",
+      "collectors_set": "my hero academia",
+      "collectors_number": "056",
+      "rarity": "se",
+      "title": "Aspiring Punch",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 5,
+      "damage": 5,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: This attack gets +5 speed. Only playable if this attack's damage is 10 or greater."
+          }
+      ],
+      "keywords": ["Punch"]
+    },
+    {
+      "id": "001057",
+      "collectors_set": "my hero academia",
+      "collectors_number": "057",
+      "rarity": "se",
+      "title": "Delaware Smash",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 6,
+      "resources":["good", "life", "order"],
+      "abilities": [],
+      "keywords": ["Flash", "Punch"]
+    },
+    {
+      "id": "001058",
+      "collectors_set": "my hero academia",
+      "collectors_number": "058",
+      "rarity": "se",
+      "title": "Determined Victory Smash",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 5,
+      "damage": 5,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add this card to your hand after it resolves. Only playable if this attack's damage is 15 or greater."
+          }
+      ],
+      "keywords": ["Punch"]
+    },
+    {
+      "id": "001059",
+      "collectors_set": "my hero academia",
+      "collectors_number": "059",
+      "rarity": "se",
+      "title": "Future Charge",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 4,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Draw 1 card for each copy of \"Future Charge\" in your card pool."
+          }
+      ],
+      "keywords": ["Charge", "Punch"]
+    },
+    {
+      "id": "001060",
+      "collectors_set": "my hero academia",
+      "collectors_number": "060",
+      "rarity": "se",
+      "title": "Heroic Strike",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your rival commits 1 foundation for each Punch attack in your card pool."
+          }
+      ],
+      "keywords": ["Punch"]
+    },
+    {
+      "id": "001061",
+      "collectors_set": "my hero academia",
+      "collectors_number": "061",
+      "rarity": "se",
+      "title": "Reverse Throw",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 2,
+      "damage": 5,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack deals 5 or more damage, draw 1 card."
+          }
+      ],
+      "keywords": ["Punch", "Throw"]
+    },
+    {
+      "id": "001062",
+      "collectors_set": "my hero academia",
+      "collectors_number": "062",
+      "rarity": "se",
+      "title": "Setup Strike",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 3,
+      "damage": 5,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: This attack gets +3 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your next attack this turn gets +3 speed."
+          }
+      ],
+      "keywords": ["Punch"]
+    },
+    {
+      "id": "001063",
+      "collectors_set": "my hero academia",
+      "collectors_number": "Velocity Punch",
+      "rarity": "se",
+      "title": "Velocity Punch",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 4,
+      "resources":["good", "life", "order"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add 1 foundation from your stage to your momentum."
+          }
+      ],
+      "keywords": ["Punch"]
     }
 ]
