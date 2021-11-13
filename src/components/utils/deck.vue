@@ -2,7 +2,7 @@
     <div>
         <div class="row" v-if="getChartData(chart.key)">
             <div v-for="(type, key) in types" :key="type+key" class="col-6">
-                <h3>{{type}}s <br /><small>{{getTypeQuantityString(type)}}</small></h3>
+                <h4>{{type}}s <br /><small>{{getTypeQuantityString(type)}}</small></h4>
                 <ul class="list-group">
                     <li 
                         class=" deck-list-group d-flex justify-content-between align-items-center"
@@ -17,14 +17,13 @@
     </div>
 </template>
 <script>
-import {types} from '@/utils/lookups'
 import cardQuantity from './cardQuantity'
 export default {
     title: 'deck',
     components: {cardQuantity},
     data() {
         return {
-            types: types
+            types: ['Character', 'Action', 'Attack', 'Foundation', 'Asset']
         }
     },
     props: {

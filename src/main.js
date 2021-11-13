@@ -9,11 +9,25 @@ import harness from '@rtidatascience/harness'
 import { harnessUI } from '@rtidatascience/harness-ui'
 
 // highcharts
+import Highcharts from 'highcharts'
 import HighchartsVue from 'highcharts-vue'
+import More from 'highcharts/highcharts-more'
+import solidGaugeInit from "highcharts/modules/solid-gauge";
+solidGaugeInit(Highcharts)
+More(Highcharts)
 
 // styles
 import 'bootstrap'
 import '@/styles/main.scss'
+
+Highcharts.setOptions({
+  chart: {
+    backgroundColor: 'transparent',
+    style: {
+      fontFamily: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`,
+    }
+  }
+})
 
 Vue.use(harness, { store, router, pages })
 Vue.use(harnessUI)

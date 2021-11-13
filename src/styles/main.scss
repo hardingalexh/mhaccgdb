@@ -12,9 +12,15 @@ html {
     font-size: 12px;
 }
 
-body, .card, .modal-header, .modal-body, .form-control, input {
+body, .card, .modal-header, .modal-body, .form-control, input{
     background-color: #404040;
     color: white;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: none;
 }
 
 .navbar {
@@ -127,4 +133,8 @@ body, .card, .modal-header, .modal-body, .form-control, input {
 
 #deckbuilder-search-col, #search-page {
     width: 100%;
+}
+
+.table-sm>tr>td {
+    border-top: none;
 }

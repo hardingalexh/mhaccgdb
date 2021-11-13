@@ -8,7 +8,6 @@ export default async (hs) => {
     }
 
     if(hs.isFilterDirty('types')){
-        console.log(hs.getFilter('types'))
         cards = cards.filter(card => hs.getFilter('types').includes(card.type) )
     }
     
@@ -17,12 +16,10 @@ export default async (hs) => {
     }
 
     if(hs.isFilterDirty('resources')){
-        console.log(hs.getFilter('resources'))
         cards = cards.filter(card => hs.getFilter('resources').some(r => card.resources.includes(r.toLowerCase())))
     }
 
     if(hs.isFilterDirty('keywords')){
-        console.log(hs.getFilter('keywords'))
         cards = cards.filter(card => hs.getFilter('keywords').some(r => card.keywords ? card.keywords.filter(k => k.toLowerCase().includes(r.toLowerCase())).length : false))
     }
 
@@ -69,7 +66,6 @@ export default async (hs) => {
     }
 
     if(hs.isFilterDirty('max_block_modifier') && hs.getFilter('max_block_modifier') !== ''){
-        console.log(hs.getFilter('max_block_modifier'))
         cards = cards.filter(card => (card.block_modifier || card.block_modifier === 0) && card.block_modifier <= hs.getFilter('max_block_modifier'))
     }
 
