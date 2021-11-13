@@ -3947,5 +3947,258 @@
           }
       ],
       "keywords": ["Unique"]
+    },
+    {
+      "id": "001145",
+      "collectors_set": "my hero academia",
+      "collectors_number": "145",
+      "rarity": "uc",
+      "title": "Tenya Iida",
+      "type": "character",
+      "hand_size": 6,
+      "health": 28,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "[Once per turn]: After an attack is played, it gets +3 or -3 speed. If it is your attack, your rival commits 1 foundation each time they play an enhance ability during its Enhance Step."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "After your rival plays an attack, you may play the first enhance ability during its Enhance Step."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001146",
+      "collectors_set": "my hero academia",
+      "collectors_number": "146",
+      "rarity": "r",
+      "title": "Engine Rush",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 5,
+      "damage": 5,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: If this attack is not blocked, draw 2 cards."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "End this Enhance Step."
+          }
+      ],
+      "keywords": ["EX: 1", "Kick", "Powerful: 2"]
+    },
+    {
+      "id": "001147",
+      "collectors_set": "my hero academia",
+      "collectors_number": "147",
+      "rarity": "c",
+      "title": "Flying Thruster Kick",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +2 damage. Only playable if this attack has received a speed bonus."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Add the top 2 cards of your deck to your momentum."
+          }
+      ],
+      "keywords": ["EX: 2", "Kick"]
+    },
+    {
+      "id": "001148",
+      "collectors_set": "my hero academia",
+      "collectors_number": "148",
+      "rarity": "ur",
+      "title": "Recipro Burst",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 3,
+      "damage": 5,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After your rival commits 1 or more foundations during this attack's Enhance Step, it gets +1 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: This attack gets +X damage. X equals the speed of this attack minus 3."
+          }
+      ],
+      "keywords": ["EX: 3", "Kick", "Stun: 1"]
+    },
+    {
+      "id": "001149",
+      "collectors_set": "my hero academia",
+      "collectors_number": "149",
+      "rarity": "uc",
+      "title": "Recipro Extend",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your next Kick attack this turn gets +2 speed and +2 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Draw 1 card."
+          }
+      ],
+      "keywords": ["Charge", "Kick"]
+    },
+    {
+      "id": "001150",
+      "collectors_set": "my hero academia",
+      "collectors_number": "150",
+      "rarity": "c",
+      "title": "Calling For Backup",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Draw 1 card. If this was not the first enhance played this Enhance Step, discard 1 card."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001151",
+      "collectors_set": "my hero academia",
+      "collectors_number": "151",
+      "rarity": "uc",
+      "title": "Fulfilled My Duty",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 4,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: End this Enhance Step."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001152",
+      "collectors_set": "my hero academia",
+      "collectors_number": "152",
+      "rarity": "r",
+      "title": "Heroic Lineage",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["fire", "order", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit: AFter your rival's attack receives a damage bonus, it gets =3 speed."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit: After your attack receives a speed bonus, it gets +2 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001153",
+      "collectors_set": "my hero academia",
+      "collectors_number": "153",
+      "rarity": "c",
+      "title": "Natural Leader",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["fire", "order", "void"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: This mid or Kick attack gets +2 speed."
+          },
+          {
+              "ability_type": "First Enhance",
+              "ability_text": "Commit: Choose 1 rival foundation. Abilities on the chosen card can not be played for the rest of this Enhance Step."
+          }
+      ],
+      "keywords": [""]
     }
 ]
