@@ -3698,5 +3698,254 @@
           }
       ],
       "keywords": ["Unique"]
-    }
+    },
+    {
+      "id": "001136",
+      "collectors_set": "my hero academia",
+      "collectors_number": "136",
+      "rarity": "uc",
+      "title": "Shoto Todoroki",
+      "type": "character",
+      "hand_size": 7,
+      "health": 20,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: Your attack gets +1 damage for every 2 Ranged attacks in your discard pile."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit, discard the top 3 cards of your deck: After your rival plays an Enhance ability on a non-character card, cancel it."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "011137",
+      "collectors_set": "my hero academia",
+      "collectors_number": "137",
+      "rarity": "ur",
+      "title": "Frigid Heatwave",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 5,
+      "damage": 4,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If you have 6 or more Ranged attacks in your discard pile, draw 2 cards."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard the top 3 cards of your deck: This attack gets +2 damage for each Ranged attack discarded this way."
+          }
+      ],
+      "keywords": ["Ranged"]
+    },
+    {
+      "id": "001138",
+      "collectors_set": "my hero academia",
+      "collectors_number": "138",
+      "rarity": "r",
+      "title": "Giant Ice Wall",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 3,
+      "damage": 5,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: Your next Ranged attack gains Stun: 2."
+          }
+      ],
+      "keywords": ["Breaker: 1", "Ranged", "Stun: 2"]
+    },
+    {
+      "id": "001139",
+      "collectors_set": "my hero academia",
+      "collectors_number": "139",
+      "rarity": "ur",
+      "title": "Ice Storm",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 4,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack cannot be blocked by attack cards."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "This attack gets +2 speed. The speed of this attack cannot be reduced."
+          }
+      ],
+      "keywords": ["Breaker: 2", "Powerful: 3", "Ranged"]
+    },
+    {
+      "id": "001140",
+      "collectors_set": "my hero academia",
+      "collectors_number": "140",
+      "rarity": "c",
+      "title": "Massive Flash Freeze",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 5,
+      "damage": 3,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard the top card of your deck: Your next check to play a Ranged attack gets +1."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "The next check you make to play an attack passes."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001141",
+      "collectors_set": "my hero academia",
+      "collectors_number": "141",
+      "rarity": "c",
+      "title": "Frozen",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Your Turn] Destroy 1 foundation: Your rival commits 1 foundation."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001143",
+      "collectors_set": "my hero academia",
+      "collectors_number": "143",
+      "rarity": "c",
+      "title": "Precise Control",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add this card to your hand."
+          }
+      ],
+      "keywords": ["Breaker: 1"]
+    },
+    {
+      "id": "001142",
+      "collectors_set": "my hero academia",
+      "collectors_number": "142",
+      "rarity": "r",
+      "title": "Irrefutable Force Of Nature",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Seal 1 rival earth, fire, or water asset or foundation."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Remove: Seal 1 rival asset or foundation."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001144",
+      "collectors_set": "my hero academia",
+      "collectors_number": "144",
+      "rarity": "uc",
+      "title": "Self-Assured",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 4,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["chaos", "fire", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: Change the zone of this attack."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: Draw 1 card for every 4 Ranged attacks in your discard pile."
+          }
+      ],
+      "keywords": ["Unique"]
+    },
 ]
