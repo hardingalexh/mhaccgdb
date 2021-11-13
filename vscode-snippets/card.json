@@ -1,0 +1,38 @@
+{
+    "MHA Card Game": {
+        "prefix": "card",
+        "body": [
+        "{",
+        "  \"id\": \"${1:001001}\",",
+        "  \"collectors_set\": \"my hero academia\",",
+        "  \"collectors_number\": \"${2:001001}\",",
+        "  \"rarity\": \"$3\",",
+        "  \"title\": \"${4:All Might}\",",
+        "  \"type\": \"${5:character}\",",
+        "  \"hand_size\": ${6:null},",
+        "  \"health\": ${7:null},",
+        "  \"difficulty\": ${8:0},",
+        "  \"check\": ${9:0},",
+    
+        "  \"block_zone\": \"${10:mid}\",",
+        "  \"block_modifier\": ${11:0},",
+        "  \"attack_zone\": \"${12:}\",",
+        "  \"speed\": ${13:null},",
+        "  \"damage\": ${14:null},",
+        "  \"resources\":[\"$15\", \"$16\", \"$17\"],",
+        "  \"abilities\": [",
+        "      {",
+        "          \"ability_type\": \"$18\",",
+        "          \"ability_text\": \"$19\"",
+        "      },",
+        "      {",
+        "          \"ability_type\": \"$20\",",
+        "          \"ability_text\": \"$21\"",
+        "      }",
+        "  ],",
+        "  \"keywords\": [\"$22\"]",
+        "},"
+        ],
+        "description": "MHA Card Game"
+    }
+}
