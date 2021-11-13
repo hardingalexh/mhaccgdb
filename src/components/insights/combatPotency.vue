@@ -32,10 +32,13 @@ export default {
                 },
                 series: this.spiderChartSeries,
                 title: {
-                    text: 'Combat Potency',
+                    text: '',
                     style: {
                         color: "white"
                     }
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: {point.y:.2f}'
                 },
                 xAxis: {
                     categories: ['Avg Speed', 'Avg Damage', 'Avg Difficulty', 'Attack Frequency', 'Avg Block', 'Block Frequency'],
@@ -54,7 +57,7 @@ export default {
                     labels: {
                         style: {
                             color: "white"
-                        }
+                        },
                     }
                 }
             }
