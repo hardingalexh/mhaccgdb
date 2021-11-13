@@ -3466,5 +3466,237 @@
           }
       ],
       "keywords": [""]
+    },
+    {
+      "id": "001128",
+      "collectors_set": "my hero academia",
+      "collectors_number": "128",
+      "rarity": "r",
+      "title": "Home Run Comet",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 3,
+      "damage": 4,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add 1 foundation to your momentum."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +1 to its Powerful rating for each Charge or high attack in your card pool."
+          }
+      ],
+      "keywords": ["Charge", "Powerful: 1", "Weapon"]
+    },
+    {
+      "id": "001129",
+      "collectors_set": "my hero academia",
+      "collectors_number": "129",
+      "rarity": "ur",
+      "title": "Meteor Shower",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 5,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If this attack is added to your momentum, add it face up."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: Add 1 copy of \"Meteor Shower\" from your discard pile to your momentum."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Momentum] Discard 1 card: Add this card to your hand."
+          }
+      ],
+      "keywords": ["Charge", "Ranged"]
+    },
+    {
+      "id": "001130",
+      "collectors_set": "my hero academia",
+      "collectors_number": "130",
+      "rarity": "uc",
+      "title": "Zero Gravity Capture",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 3,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 0,
+      "damage": 4,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If this attack is added to your momentum, add it face up."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Momentum] Flip: This attack gets +3 damage."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Add 1 momentum to your hand."
+          }
+      ],
+      "keywords": ["Charge"]
+    },
+    {
+      "id": "001131",
+      "collectors_set": "my hero academia",
+      "collectors_number": "131",
+      "rarity": "c",
+      "title": "Zero Gravity Lift",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "high",
+      "speed": 3,
+      "damage": 6,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If this attack is added to your momentum, add it face up."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Momentum] Remove: After your attack resolves, add it to your momentum."
+          }
+      ],
+      "keywords": ["Charge", "Throw"]
+    },
+    {
+      "id": "001132",
+      "collectors_set": "my hero academia",
+      "collectors_number": "132",
+      "rarity": "uc",
+      "title": "Encouraging Training Partner",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "Midoriya/Uraraka Response",
+              "ability_text": "Commit: After you take 5 or more damage, gain 1 health."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Change this attack's speed to 4."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001133",
+      "collectors_set": "my hero academia",
+      "collectors_number": "133",
+      "rarity": "c",
+      "title": "Infinite Potential",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After your rival plays an attack, change its zone to high."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001134",
+      "collectors_set": "my hero academia",
+      "collectors_number": "134",
+      "rarity": "c",
+      "title": "Release",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 4,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: Your check to block this attack gets +2."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001135",
+      "collectors_set": "my hero academia",
+      "collectors_number": "135",
+      "rarity": "r",
+      "title": "Wealthy Aspirations",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chao", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Remove: Look at your momentum and turn 1 of them face up."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After a card is added to your momentum, add the top card of your deck to your momentum."
+          }
+      ],
+      "keywords": ["Unique"]
     }
 ]
