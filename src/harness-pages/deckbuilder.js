@@ -5,6 +5,7 @@ import searchFilters from './utils/searchFilters'
 import deckbuilderLoadData from './utils/deckbuilderLoadData'
 import combatPotency from '@/components/insights/combatPotency'
 import consistency from '@/components/insights/consistency'
+import deckMakeup from '@/components/insights/deckMakeup'
 import { components } from '@rtidatascience/harness-ui'
 
 export default class Deckbuilder {
@@ -55,6 +56,10 @@ export default class Deckbuilder {
             consistency: {
                 title: "Consistency",
                 component: consistency
+            },
+            deckMakeup: {
+                title: 'Deck Makeup',
+                component: deckMakeup
             }
         }
     }

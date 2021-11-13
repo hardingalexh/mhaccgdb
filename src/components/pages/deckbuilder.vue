@@ -7,29 +7,45 @@
                 <hr />
                 <chartGrid :only="['deck']"/>
                 <hr />
-                
-            </div>
-            <div class="col-7" id="deckbuilder-search-col">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <h4>Insights</h4>
+                <ul class="nav nav-pills mb-3" id="insights-tab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="pills-Cards-tab" data-toggle="pill" href="#pills-Cards" role="tab" aria-controls="pills-Cards" aria-selected="true">Cards</a>
+                        <a class="nav-link active" id="insights-combatPotency-tab" data-toggle="pill" href="#insights-combatPotency" role="tab" aria-controls="insights-combatPotency" aria-selected="false">Combat Potency</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-Insights-tab" data-toggle="pill" href="#pills-Insights" role="tab" aria-controls="pills-Insights" aria-selected="false">Insights</a>
+                        <a class="nav-link" id="insights-consistency-tab" data-toggle="pill" href="#insights-consistency" role="tab" aria-controls="insights-consistency" aria-selected="false">Consistency</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-Description-tab" data-toggle="pill" href="#pills-Description" role="tab" aria-controls="pills-Description" aria-selected="false">Description</a>
+                        <a class="nav-link" id="insights-deckMakeup-tab" data-toggle="pill" href="#insights-deckMakeup" role="tab" aria-controls="insights-deckMakeup" aria-selected="false">Deck Makeup</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-Cards" role="tabpanel" aria-labelledby="pills-Cards-tab">
+                <div class="tab-content" id="insights-tabContent">
+                    <div class="tab-pane fade show active" id="insights-combatPotency" role="tabpanel" aria-labelledby="insights-combatPotency-tab">
+                        <chartGrid :only="['combatPotency']" />
+                    </div>
+                    <div class="tab-pane fade" id="insights-consistency" role="tabpanel" aria-labelledby="insights-consistency-tab">
+                        <chartGrid :only="['consistency']" />
+                    </div>
+                    <div class="tab-pane fade" id="insights-deckMakeup" role="tabpanel" aria-labelledby="insights-deckMakeup-tab">
+                        <chartGrid :only="['deckMakeup']" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-7" id="deckbuilder-search-col">
+                <ul class="nav nav-pills mb-3" id="pillsRight-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pillsRight-Cards-tab" data-toggle="pill" href="#pillsRight-Cards" role="tab" aria-controls="pillsRight-Cards" aria-selected="true">Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pillsRight-Description-tab" data-toggle="pill" href="#pillsRight-Description" role="tab" aria-controls="pillsRight-Description" aria-selected="false">Description</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pillsRight-tabContent">
+                    <div class="tab-pane fade show active" id="pillsRight-Cards" role="tabpanel" aria-labelledby="pillsRight-Cards-tab">
                         <filtersAccordion />
                         <chartGrid :only="['results']" />   
                     </div>
-                    <div class="tab-pane fade" id="pills-Insights" role="tabpanel" aria-labelledby="pills-Insights-tab">
-                        <chartGrid :only="['combatPotency', 'consistency']" />
-                    </div>
-                    <div class="tab-pane fade" id="pills-Description" role="tabpanel" aria-labelledby="pills-Description-tab">
+                    <div class="tab-pane fade" id="pillsRight-Description" role="tabpanel" aria-labelledby="pillsRight-Description-tab">
                         <textarea class="form-control" rows=10 />
                     </div>
                 </div>

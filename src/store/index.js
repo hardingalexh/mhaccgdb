@@ -17,7 +17,7 @@ export default new Vuex.Store({
   },
   actions: {
     RETRIEVE_CARDS: async (context) => {
-      await fetch('/mhaccgdb/data/cards.json')
+      await fetch('/data/cards.json')
       .then(response => response.json())
       .then(data => {
           context.commit("SET_CARDS", data)

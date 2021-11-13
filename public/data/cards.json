@@ -2089,9 +2089,9 @@
       "check": 3,
       "block_zone": "mid",
       "block_modifier": 3,
-      "attack_zone": "",
-      "speed": null,
-      "damage": null,
+      "attack_zone": "high",
+      "speed": 3,
+      "damage": 3,
       "resources":["air", "death", "fire"],
       "abilities": [
           {
@@ -2426,7 +2426,7 @@
           {
               "ability_type": "Enhance",
               "ability_text": "Flip: Your Fury attack gets +2 speed."
-          },
+          }
       ],
       "keywords": [""]
     }

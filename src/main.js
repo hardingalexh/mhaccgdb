@@ -13,8 +13,8 @@ import Highcharts from 'highcharts'
 import HighchartsVue from 'highcharts-vue'
 import More from 'highcharts/highcharts-more'
 import solidGaugeInit from "highcharts/modules/solid-gauge";
-solidGaugeInit(Highcharts)
 More(Highcharts)
+solidGaugeInit(Highcharts)
 
 // styles
 import 'bootstrap'

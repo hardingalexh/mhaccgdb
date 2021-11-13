@@ -29,8 +29,8 @@ export default async (state, pageObject, hs) => {
         results: results,
         deck: cardsInDeck,
         combatPotency: combatPotency(attacks, cardsInDeck),
-        consistency: consistency(cardsInDeck)
-        // }
+        consistency: consistency(cardsInDeck),
+        deckMakeup: cardsInDeck
     }
     return ret
 }
