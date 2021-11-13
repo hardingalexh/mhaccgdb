@@ -2429,5 +2429,1042 @@
           }
       ],
       "keywords": [""]
+    },
+    {
+      "id": "001091",
+      "collectors_set": "my hero academia",
+      "collectors_number": "091",
+      "rarity": "uc",
+      "title": "Kyoka Jiro",
+      "type": "character",
+      "hand_size": 6,
+      "health": 27,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once per turn]: Look at the top two cards of both players' decks. You may replace them in any order."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "After you play a Charge attack, it gets +1 damage for each card in your card pool."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "After you play a Weapon attack, it gets +1 speed for each card in your card pool."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001092",
+      "collectors_set": "my hero academia",
+      "collectors_number": "092",
+      "rarity": "r",
+      "title": "Earphone Jack",
+      "type": "asset",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you play an attack, discard the top card of your rival's deck. If the attack you played is a Charge attack, it gets +1 speed."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit: After your attack deals damage, ready 1 foundation that has not been readied this Combat Phase."
+          }
+      ],
+      "keywords": ["Unique", "Weapon"]
+    },
+    {
+      "id": "001093",
+      "collectors_set": "my hero academia",
+      "collectors_number": "093",
+      "rarity": "uc",
+      "title": "Amplified Sound Blast",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 4,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If this attack is added to your momentum, add it face up."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Momentum]: Flip: Your next Charge or Weapon attack this turn gets -2 difficulty."
+          },
+          {
+              "ability_type": "Deadlock Response",
+              "ability_text": "After you play this attack, draw 2 cards."
+          }
+      ],
+      "keywords": ["Charge", "Flash"]
+    },
+    {
+      "id": "001094",
+      "collectors_set": "my hero academia",
+      "collectors_number": "094",
+      "rarity": "c",
+      "title": "Improvised Blade",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 4,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "This attack gets +1 damage for each card in your card pool."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "This attack gets +1 speed and +1 damage for each card in your card pool."
+          }
+      ],
+      "keywords": ["Weapon", "Combo (Charge)"]
+    },
+    {
+      "id": "001095",
+      "collectors_set": "my hero academia",
+      "collectors_number": "095",
+      "rarity": "ur",
+      "title": "Specialized Sound Waves",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 3,
+      "check": 2,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 3,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you play this card, draw 1 card."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Remove 1 momentum: After you play this attack, add up to 2 cards from either player's discard pile to the top of their deck in any order."
+          }
+      ],
+      "keywords": ["Charge", "Flash", "Ranged"]
+    },
+    {
+      "id": "001096",
+      "collectors_set": "my hero academia",
+      "collectors_number": "096",
+      "rarity": "r",
+      "title": "Unwavering Slash",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 card: Build 1 asset from your discard pile face up."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If you have 1 or more assets, ready 1 foundation that has not been readied this Combat Phase and draw 1 card."
+          }
+      ],
+      "keywords": ["Charge", "Powerful: 2", "Weapon"]
+    },
+    {
+      "id": "001097",
+      "collectors_set": "my hero academia",
+      "collectors_number": "097",
+      "rarity": "uc",
+      "title": "Destined For Mainstream Success",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Name a card type then reveal the top card of your dec; if the card matches the named type, add it to your hand."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001098",
+      "collectors_set": "my hero academia",
+      "collectors_number": "098",
+      "rarity": "c",
+      "title": "Plug-In",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After this card is committed due to your rival's effect, draw 1 card. Playable while committed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Look at the top card of either player's deck. You may discard it."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001099",
+      "collectors_set": "my hero academia",
+      "collectors_number": "099",
+      "rarity": "c",
+      "title": "Specialist Of Sound",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "all", "good"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you check this card, reveal the top card of your deck."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit: After an attack is played, it gets -3 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001100",
+      "collectors_set": "my hero academia",
+      "collectors_number": "100",
+      "rarity": "uc",
+      "title": "Minoru Mineta",
+      "type": "character",
+      "hand_size": 6,
+      "health": 27,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Lose 1 health: After an attack is blocked, your rival commits 1 foundation."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If there is a card in your rival's card pool, your attack gets +2 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Return this attack to its printed speed. It cannot receive any speed bonuses."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001101",
+      "collectors_set": "my hero academia",
+      "collectors_number": "101",
+      "rarity": "c",
+      "title": "Eat My Sticky Balls",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is not blocked, add the top card of your rival's discard pile to their card pool face up."
+          }
+      ],
+      "keywords": ["Fury", "Ranged"]
+    },
+    {
+      "id": "001102",
+      "collectors_set": "my hero academia",
+      "collectors_number": "102",
+      "rarity": "ur",
+      "title": "Grape Rush Attack",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 2,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 8,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is blocked, add 1 copy of \"Eat My Sticky Balls\" from your discard pile to your hand, or if your character is Minoru Mineta, add all copies of \"Eat My Sticky Balls\" in your discard pile to your hand."
+          }
+      ],
+      "keywords": ["Fury", "Powerful: 2", "Ranged"]
+    },
+    {
+      "id": "001103",
+      "collectors_set": "my hero academia",
+      "collectors_number": "103",
+      "rarity": "uc",
+      "title": "Pop Off Step",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 2,
+      "damage": 5,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "If this attack is not blocked, add 1 Fury attack from your card pool to your momentum."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "This attack gets +5 speed."
+          }
+      ],
+      "keywords": ["Combo (Fury)"]
+    },
+    {
+      "id": "001104",
+      "collectors_set": "my hero academia",
+      "collectors_number": "104",
+      "rarity": "r",
+      "title": "Sticky Ball Toss Tackle",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 3,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +1 damage for each card in your rival's card pool."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Lose 2 health: If this attack is not blocked, your rival commits 2 foundations."
+          }
+      ],
+      "keywords": ["Fury", "Throw"]
+    },
+    {
+      "id": "001105",
+      "collectors_set": "my hero academia",
+      "collectors_number": "105",
+      "rarity": "uc",
+      "title": "Classmate Introductions",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If your rival has not played a block this turn, this attack gets +1 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this is your first attack this turn, it gets +1 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001106",
+      "collectors_set": "my hero academia",
+      "collectors_number": "106",
+      "rarity": "c",
+      "title": "Creepy Realization",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 4,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: This attack gets +1 or -1 damage for each card in your rival's card pool."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001107",
+      "collectors_set": "my hero academia",
+      "collectors_number": "107",
+      "rarity": "c",
+      "title": "Desperate Times",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After your rival draws any number of cards during the Combat Phase, they commit 1 foundation."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001108",
+      "collectors_set": "my hero academia",
+      "collectors_number": "108",
+      "rarity": "r",
+      "title": "Sticky Balls",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 3,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["evil", "order", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Add the top card of your rival's discard pile to their card pool."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: This non-Ranged attack gets -4 speed."
+          }
+      ],
+      "keywords": ["Unique"]
+    },
+    {
+      "id": "001109",
+      "collectors_set": "my hero academia",
+      "collectors_number": "109",
+      "rarity": "uc",
+      "title": "Momo Yaoyorozu",
+      "type": "character",
+      "hand_size": 6,
+      "health": 26,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: Build 1 asset or Weapon foundation from your card pool face up. This attack gets +2 or -2 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once per turn] Remove 1 foundation: Add 1 Weapon card from your discard pile to your hand."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001110",
+      "collectors_set": "my hero academia",
+      "collectors_number": "110",
+      "rarity": "r",
+      "title": "Quick Creation",
+      "type": "asset",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Add the top card of your discard pile to your card pool. This attack gets +2 or -2 damage."
+          },
+          {
+              "ability_type": "Deadlock First Enhance",
+              "ability_text": "Commit: Double your Weapon attack's speed and damage."
+          }
+      ],
+      "keywords": ["Breaker:1", "Weapon"]
+    },
+    {
+      "id": "001111",
+      "collectors_set": "my hero academia",
+      "collectors_number": "111",
+      "rarity": "uc",
+      "title": "Create: Bo Staff",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Add 1 asset or Weapon foundation from your discard pile to your card pool or hand."
+          }
+      ],
+      "keywords": ["Weapon"]
+    },
+    {
+      "id": "001112",
+      "collectors_set": "my hero academia",
+      "collectors_number": "112",
+      "rarity": "c",
+      "title": "Create: Capturing Net",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 2,
+      "damage": 4,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "This attack gains Stun: 2."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Build 1 foundation from your card pool face up."
+          }
+      ],
+      "keywords": ["Charge", "Weapon", "Combo (Foundation)"]
+    },
+    {
+      "id": "001113",
+      "collectors_set": "my hero academia",
+      "collectors_number": "113",
+      "rarity": "ur",
+      "title": "Staff Strike",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 6,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 6,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "The next 2 Weapon cards you try to play this turn ignore progressive difficulty."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Draw 1 card for each foundation in your card pool."
+          }
+      ],
+      "keywords": ["Powerful: 2", "Weapon", "Combo (Weapon, Foundation)"]
+    },
+    {
+      "id": "001114",
+      "collectors_set": "my hero academia",
+      "collectors_number": "114",
+      "rarity": "uc",
+      "title": "A Precious Lesson",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 4,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After 1 of your foundations is removed or destroyed, build the top card of your deck face down."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001115",
+      "collectors_set": "my hero academia",
+      "collectors_number": "115",
+      "rarity": "c",
+      "title": "Preparing For Battle",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit, discard 1 card: Draw 1 card."
+          }
+      ],
+      "keywords": ["Breaker: 1", "Weapon"]
+    },
+    {
+      "id": "001116",
+      "collectors_set": "my hero academia",
+      "collectors_number": "116",
+      "rarity": "r",
+      "title": "Rising Starlet",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you build this card, gain 1 health."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Your attack] Flip: Build 1 Weapon asset or Weapon foundation from your card pool face up."
+          }
+      ],
+      "keywords": ["Weapon"]
+    },
+    {
+      "id": "001117",
+      "collectors_set": "my hero academia",
+      "collectors_number": "117",
+      "rarity": "c",
+      "title": "Start With The Basics",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["all", "good", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Your Weapon attack gets +1 speed and +2 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001118",
+      "collectors_set": "my hero academia",
+      "collectors_number": "118",
+      "rarity": "uc",
+      "title": "Nomu",
+      "type": "character",
+      "hand_size": 5,
+      "health": 35,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit 1 foundation: Before the Damage Step of this unblocked attack, reduce its damage to 6."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Your non-Throw attack gets a damage bonus equal to its printed difficulty."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001119",
+      "collectors_set": "my hero academia",
+      "collectors_number": "119",
+      "rarity": "uc",
+      "title": "Berserker Blow",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "low",
+      "speed": 4,
+      "damage": 6,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: If this attack is not blocked, destroy 1 rival foundation. If your character is Nomu, build the top card of your deck face down."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Destroy 2 rival foundations."
+          }
+      ],
+      "keywords": ["Fury", "Punch"]
+    },
+    {
+      "id": "001120",
+      "collectors_set": "my hero academia",
+      "collectors_number": "120",
+      "rarity": "r",
+      "title": "Gale Force Punch",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 6,
+      "check": 2,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 6,
+      "damage": 6,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If you have fewer foundations than your rival, destroy 1 rival foundation."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Lose 3 health: Your next Fury or Punch attack gets +5 damage."
+          }
+      ],
+      "keywords": ["Punch", "Ranged"]
+    },
+    {
+      "id": "001121",
+      "collectors_set": "my hero academia",
+      "collectors_number": "121",
+      "rarity": "c",
+      "title": "Merciless Rush",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 5,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "",
+              "ability_text": "If your printed hand size is less than your rival's, this attack gets -1 difficulty."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is completely blocked, your rival destroys 1 foundation."
+          }
+      ],
+      "keywords": ["EX: 2", "Fury", "Punch"]
+    },
+    {
+      "id": "001122",
+      "collectors_set": "my hero academia",
+      "collectors_number": "122",
+      "rarity": "ur",
+      "title": "Relentless Barrage",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 5,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "Lose 2 Health: Add 1 copy of \"Relentless Barrage\" from your discard pile to your hand."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is blocked, your next attack this turn gets +2 damage."
+          }
+      ],
+      "keywords": ["Fury", "Punch", "Combo (Punch)"]
+    },
+    {
+      "id": "001123",
+      "collectors_set": "my hero academia",
+      "collectors_number": "123",
+      "rarity": "uc",
+      "title": "Apathetic",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 4,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Flip 1 rival foundation."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001124",
+      "collectors_set": "my hero academia",
+      "collectors_number": "124",
+      "rarity": "c",
+      "title": "Brute Strength",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 4,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Lose 1 health: Your attack gets +1 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: Your attack gets +1 damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001125",
+      "collectors_set": "my hero academia",
+      "collectors_number": "125",
+      "rarity": "c",
+      "title": "Shock Absorption",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: This attack gets -2 speed. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001126",
+      "collectors_set": "my hero academia",
+      "collectors_number": "126",
+      "rarity": "r",
+      "title": "Super Regeneration",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 4,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "evil"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After you lose health due to your rival's attack or effect, gain 3 health."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001127",
+      "collectors_set": "my hero academia",
+      "collectors_number": "127",
+      "rarity": "uc",
+      "title": "Ochaco Uraraka",
+      "type": "character",
+      "hand_size": 6,
+      "health": 27,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "chaos", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "[Once per turn]: After your Charge or high attack resolves, add it to your momentum."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: If you have 1 or more momentum, your attack gets +3 speed. You may add 1 momentum to your hand."
+          }
+      ],
+      "keywords": [""]
     }
 ]
