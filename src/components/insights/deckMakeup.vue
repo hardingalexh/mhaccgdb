@@ -1,6 +1,8 @@
 <template>
     <div>
         <highcharts :options="pieChartOptions" />
+        <p class="lead">Interpretation</p>
+        <p>A simple breakdown of the percent of each card type in your deck. The MHA CCG Rulebook recommends 70% of your cards be non-attacks and 30% of your cards attacks.</p>
     </div>
 </template>
 <script>
