@@ -4,14 +4,12 @@
         <p class="lead">Interpretation</p>
         <p>
         This radar chart creates a polygon for each zone - low, mid and high. For each zone, this polygon maps 5 stats:
-        <ul>
-            <li><strong>Average Speed</strong>: The average speed of attacks in this zone (higher is better)</li>
-            <li><strong>Average Damage</strong>: The average damage of attacks in this zone (higher is better)</li>
-            <li><strong>Average Difficulty</strong>: The average difficulty of attacks in this zone (lower is better)</li>
-            <li><strong>Attack Frequency</strong>: The percentage of attacks in this zone, scaled to 10. For example, if 40% of your attacks were "low," it would show as 4.</li>
-            <li><strong>Average Block</strong>: The average modifier of blocks in this zone (lower is better)</li>
-            <li><strong>Block Frequency</strong>: The percentage of blocks in this zone, scaled to 10. For example, if 40% of your blocks were "low," it would show as 4.</li>
-        </ul>
+            <br /><strong>Average Speed</strong>:<br /> The average speed of attacks in this zone (higher is better)
+            <br /><strong>Average Damage</strong>:<br /> The average damage of attacks in this zone (higher is better)
+            <br /><strong>Average Difficulty</strong>:<br /> The average difficulty of attacks in this zone (lower is better)
+            <br /><strong>Attack Frequency</strong>:<br /> The percentage of attacks in this zone, scaled to 10. For example, if 40% of your attacks were "low," it would show as 4.
+            <br /><strong>Average Block</strong>:<br /> The average modifier of blocks in this zone (lower is better)
+            <br /><strong>Block Frequency</strong>:<br /> The percentage of blocks in this zone, scaled to 10. For example, if 40% of your blocks were "low," it would show as 4.
         </p>
     </div>
 </template>
@@ -45,7 +43,17 @@ export default {
                     tickmarkPlacement: 'on',
                     labels: {
                         style: {
-                            color: "white"
+                            color: "white",
+                            textOutline: false
+                        }
+                    }
+                },
+                plotOptions: {
+                    series: {
+                        dataLabels: {
+                            style: {
+                                textOutline: false
+                            }
                         }
                     }
                 },

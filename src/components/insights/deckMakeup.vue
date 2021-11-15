@@ -9,6 +9,17 @@
 export default {
     name: 'deckMakeup',
     props: ['chart'],
+    data() {
+        return {
+            cardColors: {
+                'Action': 'rgb(40,90,137)',
+                'Attack': 'rgb(182, 57, 33)',
+                'Asset': 'rgb(33, 67, 40)',
+                'Character': 'rgb(255, 255, 255)',
+                'Foundation': 'rgb(120, 120, 120)'
+            }
+        }
+    },
     computed: {
         pieChartOptions(){
             return {
@@ -28,8 +39,15 @@ export default {
                 },
                 plotOptions: {
                     pie: {
-                         dataLabels: {
-                            color: 'white'
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b><br>{point.percentage:.1f} %',
+                            distance: -50,
+                            style: {
+                                textOutline: false
+                            }
                         }
                     }
                 },
@@ -49,7 +67,8 @@ export default {
                     const totalCardCount = this.getFilter('deck').length
                     return {
                         name: cat,
-                        y: (cardCount * 100) / totalCardCount
+                        y: (cardCount * 100) / totalCardCount,
+                        color: this.cardColors[cat]
                     }
                 })
             }
