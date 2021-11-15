@@ -3686,7 +3686,7 @@
       "attack_zone": "",
       "speed": null,
       "damage": null,
-      "resources":["air", "chao", "life"],
+      "resources":["air", "chaos", "life"],
       "abilities": [
           {
               "ability_type": "Enhance",
@@ -4197,6 +4197,773 @@
           {
               "ability_type": "First Enhance",
               "ability_text": "Commit: Choose 1 rival foundation. Abilities on the chosen card can not be played for the rest of this Enhance Step."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001154",
+      "collectors_set": "my hero academia",
+      "collectors_number": "154",
+      "rarity": "uc",
+      "title": "Tomura Shigaraki",
+      "type": "character",
+      "hand_size": 6,
+      "health": 28,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "[Once per turn]: After your non-Throw attack deals damage, your rival loses 5 health."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Commit: After you completely block an attack, your rival destroys 1 ready foundation."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001155",
+      "collectors_set": "my hero academia",
+      "collectors_number": "155",
+      "rarity": "ur",
+      "title": "Evil Gaze",
+      "type": "action",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Lose 2 health: This attack gets +2 or -2 speed. If this attack is blocked, destroy 1 rival foundation. Remove this card from the game."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Destroy 1 rival foundation. Remove this card from the game."
+          }
+      ],
+      "keywords": ["Breaker: 1"]
+    },
+    {
+      "id": "001156",
+      "collectors_set": "my hero academia",
+      "collectors_number": "156",
+      "rarity": "c",
+      "title": "Corrosion Lunge",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "low",
+      "speed": 3,
+      "damage": 5,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is blocked, your next attack this turn gets +2 speed and +2 damage."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "If this attack is completely blocked, it still deals 3 damage."
+          }
+      ],
+      "keywords": ["Fury"]
+    },
+    {
+      "id": "001157",
+      "collectors_set": "my hero academia",
+      "collectors_number": "157",
+      "rarity": "uc",
+      "title": "Decaying Grip",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 4,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Shigaraki Response",
+              "ability_text": "After you block with this card, ready your character."
+          },
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "This attack can only be blocked by cards with a printed block modifier of +3 or greater."
+          }
+      ],
+      "keywords": ["Fury", "Combo (Fury)"]
+    },
+    {
+      "id": "001158",
+      "collectors_set": "my hero academia",
+      "collectors_number": "158",
+      "rarity": "r",
+      "title": "Touch Of Decay",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 4,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Combo Enhance",
+              "ability_text": "Commit 1 foundation: If this attack is completely blocked, add it to your hand after it resolves."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack is not blocked, draw 1 card."
+          }
+      ],
+      "keywords": ["Fury", "Stun: 1", "Combo (Fury)"]
+    },
+    {
+      "id": "001159",
+      "collectors_set": "my hero academia",
+      "collectors_number": "159",
+      "rarity": "ur",
+      "title": "Turn To Dust",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 5,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy 1 foundation: Destroy 1 foundation committed due to this attack's Stun ability. Your rival may lose 2 health to cancel this ability."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Lose 2 health: Your rival loses 2 health. Your rival may destroy 1 foundation to cancel this ability."
+          }
+      ],
+      "keywords": ["EX: 2", "Fury", "Stun: 2"]
+    },
+    {
+      "id": "001160",
+      "collectors_set": "my hero academia",
+      "collectors_number": "160",
+      "rarity": "c",
+      "title": "Keen Observation",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After your rival loses health due to an effect, your rival loses 1 health. This effect cannot reduce your rival below 1 health."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001161",
+      "collectors_set": "my hero academia",
+      "collectors_number": "161",
+      "rarity": "uc",
+      "title": "Nervous Habit",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Lose 1 health: Your attack gets +1 speed."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Destroy: After this card is committed due to your rival's effect, your rival destroys 1 foundation. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "011162",
+      "collectors_set": "my hero academia",
+      "collectors_number": "162",
+      "rarity": "uc",
+      "title": "Villainous Entrance",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "evil", "fire"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Your Fury attack gains Stun: 1."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "Flip: After your rival builds a foundation during the Combat Phase, commit it. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001163",
+      "collectors_set": "my hero academia",
+      "collectors_number": "163",
+      "rarity": "uc",
+      "title": "Tsuyu Asui",
+      "type": "character",
+      "hand_size": 7,
+      "health": 20,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: Your attack gets +2 speed. You may discard 1 Kick or Ranged attack from your card pool."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip 1 foundation: Ready this card. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001164",
+      "collectors_set": "my hero academia",
+      "collectors_number": "164",
+      "rarity": "c",
+      "title": "20 Meter Tongue Strike",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 4,
+      "damage": 6,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If your character is committed, commit 1 rival foundation."
+          }
+      ],
+      "keywords": ["Ranged"]
+    },
+    {
+      "id": "001165",
+      "collectors_set": "my hero academia",
+      "collectors_number": "165",
+      "rarity": "uc",
+      "title": "Frog Kick",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 1,
+      "attack_zone": "low",
+      "speed": 2,
+      "damage": 5,
+      "resources":["Air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After this card leaves your card pool during the Combat Phase, ready 1 foundation that has not been readied this Combat Phase."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If this attack deals damage, your next attack this turn gets +3 speed."
+          }
+      ],
+      "keywords": ["Kick"]
+    },
+    {
+      "id": "001166",
+      "collectors_set": "my hero academia",
+      "collectors_number": "166",
+      "rarity": "ur",
+      "title": "Frog Lashing",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 6,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "This attack gets +1 damage for each of your ready face down foundations."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Ready 2 face down foundations."
+          }
+      ],
+      "keywords": ["Breaker: 1", "Ranged"]
+    },
+    {
+      "id": "001167",
+      "collectors_set": "my hero academia",
+      "collectors_number": "167",
+      "rarity": "r",
+      "title": "Tongue Smack",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If your character is committed, this attack gets +2 damage."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Draw 1 card. Only playable if a card has left your card pool this turn."
+          }
+      ],
+      "keywords": ["Ranged"]
+    },
+    {
+      "id": "001168",
+      "collectors_set": "my hero academia",
+      "collectors_number": "168",
+      "rarity": "c",
+      "title": "Amphibious",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once Per Turn]: If a card has left your card pool this turn, ready this foundation. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001169",
+      "collectors_set": "my hero academia",
+      "collectors_number": "169",
+      "rarity": "c",
+      "title": "Observant Student",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: Look at the top card of your deck."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "Commit: If a card has left your card pool this turn, add 1 Ranged attack from your discard pile to your hand."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001170",
+      "collectors_set": "my hero academia",
+      "collectors_number": "170",
+      "rarity": "r",
+      "title": "Rescue Completed",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 3,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Destroy: Ready 2 face down foundations that have not been readied this Combat Phase."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit 1 foundation: This attack gets +1 or -2 speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001171",
+      "collectors_set": "my hero academia",
+      "collectors_number": "171",
+      "rarity": "uc",
+      "title": "Wall Cling",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 4,
+      "block_zone": "high",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["air", "life", "water"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: If this attack is blocked, it deals no damage."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001172",
+      "collectors_set": "my hero academia",
+      "collectors_number": "172",
+      "rarity": "uc",
+      "title": "Yuga Aoyama",
+      "type": "character",
+      "hand_size": 6,
+      "health": 27,
+      "difficulty": 6,
+      "check": 6,
+      "block_zone": "mid",
+      "block_modifier": 0,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you flip 1 or more foundations during your attack's Enhance Step, your attack gets +1 speed and +1 damage. Playable while committed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Commit: The next card you attempt to play this turn gets -1 difficulty for each of your face down foundations."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001173",
+      "collectors_set": "my hero academia",
+      "collectors_number": "173",
+      "rarity": "r",
+      "title": "Tres Chic Cape",
+      "type": "asset",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 1,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 4,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "First Enhance",
+              "ability_text": "Commit: Unflip 1 committed foundation."
+          },
+          {
+              "ability_type": "Deadlock Form",
+              "ability_text": "Remove: Add up to 2 Ranged attacks from your card pool to your hand."
+          }
+      ],
+      "keywords": ["Unique"]
+    },
+    {
+      "id": "001174",
+      "collectors_set": "my hero academia",
+      "collectors_number": "174",
+      "rarity": "r",
+      "title": "Instant Shining Flash",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "low",
+      "block_modifier": 1,
+      "attack_zone": "high",
+      "speed": 4,
+      "damage": 4,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip 1 foundation: The next card you attempt to play this turn gets -1 difficulty."
+          },
+          {
+              "ability_type": "Response",
+              "ability_text": "After you play this card, your rival discards 1 momentum."
+          }
+      ],
+      "keywords": ["Charge", "Ranged", "Weapon"]
+    },
+    {
+      "id": "001175",
+      "collectors_set": "my hero academia",
+      "collectors_number": "175",
+      "rarity": "ur",
+      "title": "Navel Laser Beam",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 3,
+      "damage": 6,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "First Enhance",
+              "ability_text": "Discard 1 momentum: Unflip 2 foundations."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip 1 foundation: This attack gets +2 speed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip 1 foundation: This attack gets +2 damage."
+          }
+      ],
+      "keywords": ["Breaker: 2", "Ranged"]
+    },
+    {
+      "id": "001176",
+      "collectors_set": "my hero academia",
+      "collectors_number": "176",
+      "rarity": "c",
+      "title": "Navel Laser Charge",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 4,
+      "check": 3,
+      "block_zone": "mid",
+      "block_modifier": 3,
+      "attack_zone": "low",
+      "speed": 3,
+      "damage": 5,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Discard 1 momentum: Gain 3 Health."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "If you have flipped a foundation during this Enhance Step, your next attack this turn gets +1 speed and +1 damage."
+          }
+      ],
+      "keywords": ["Charge", "Ranged", "Weapon"]
+    },
+    {
+      "id": "001177",
+      "collectors_set": "my hero academia",
+      "collectors_number": "177",
+      "rarity": "c",
+      "title": "Panache Shining Navel Blast",
+      "type": "attack",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 5,
+      "check": 3,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "mid",
+      "speed": 5,
+      "damage": 5,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip 1 foundation: This attack gets +1 speed and +1 damage. Your rival discards 1 momentum."
+          },
+          {
+              "ability_type": "Deadlock Enhance",
+              "ability_text": "This attack gets +5 damage."
+          }
+      ],
+      "keywords": ["Charge", "Ranged"]
+    },
+    {
+      "id": "001178",
+      "collectors_set": "my hero academia",
+      "collectors_number": "178",
+      "rarity": "uc",
+      "title": "Glamorous",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "low",
+      "block_modifier": 3,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "After you build this card, unflip 1 foundation."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip: This attack gets +3 speed. Only playable if this attack's speed is less than its printed speed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001179",
+      "collectors_set": "my hero academia",
+      "collectors_number": "179",
+      "rarity": "c",
+      "title": "Someone With Style",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 2,
+      "check": 5,
+      "block_zone": "high",
+      "block_modifier": 2,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Response",
+              "ability_text": "Destroy: After this foundation is committed due to a Stun ability, reduce your rival's attack to 0 speed. Playable while committed."
+          },
+          {
+              "ability_type": "Enhance",
+              "ability_text": "[Once per turn]: Destroy 1 foundation: Ready this foundation. Playable while committed."
+          }
+      ],
+      "keywords": [""]
+    },
+    {
+      "id": "001180",
+      "collectors_set": "my hero academia",
+      "collectors_number": "180",
+      "rarity": "c",
+      "title": "Tight Lipped",
+      "type": "foundation",
+      "hand_size": null,
+      "health": null,
+      "difficulty": 0,
+      "check": 5,
+      "block_zone": "mid",
+      "block_modifier": 1,
+      "attack_zone": "",
+      "speed": null,
+      "damage": null,
+      "resources":["death", "earth", "life"],
+      "abilities": [
+          {
+              "ability_type": "Enhance",
+              "ability_text": "Flip 1 foundation: Your attack gets +1 damage."
           }
       ],
       "keywords": [""]
